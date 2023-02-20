@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      "popins": ['Poppins', "sans-serif"] 
+    },
     extend: {
       colors: {
         "primary-green": "#0f9d58",
