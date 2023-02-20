@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from './Button'
 
 const Header = () => {
   return (
@@ -13,9 +14,7 @@ const Header = () => {
                 <li>Past Questions</li>
                 <li>Contact</li>
             </ul>
-            <button class="bg-[#0f9d58] hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                <span className='text-[#f5f5f5]'>More Info</span>
-            </button>
+            <Button color='#0f9d58'/>
         </div>
     </div>
   )

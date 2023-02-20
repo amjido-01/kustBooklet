@@ -17,9 +17,8 @@ module.exports = {
         "secondary-black": "#1F1F1F",
         "saturated-black": "#323232",
         "purple": "#CB8ECC",
-        "secondary-purple": "#F5F5F5",
-        "secondary-"
-      }
+        "secondary-purple": "#F5F5F5"
+      },
     },
   },
   plugins: [],
