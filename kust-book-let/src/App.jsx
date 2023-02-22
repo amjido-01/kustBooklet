@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div>
-      {/* <Header></Header> */}
       <Header2></Header2>
     </div>
   )
