@@ -11,6 +11,11 @@ body {
     width: 100%;
 }
 
+.try {
+    transition: ease-in-out;
+    transition-duration: 3s;
+    transition-delay: 2s;
+}
 
 
 /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
@@ -68,13 +73,13 @@ body {
   }
 
 
-  @media screen and (max-width: 330px) {
+  @media screen and (max-width: 393px) {
     .close {
-        margin-left: 95px;
+        margin-left: 180px;
     }
 }
 
-@media screen and (min-width: 331px) {
+/* @media screen and (min-width: 331px) {
     .close {
         margin-left: 110px;
     }
@@ -88,5 +93,5 @@ body {
     .close {
         margin-left: 200px;
     }
-}
+} */
 

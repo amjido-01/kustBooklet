@@ -50,13 +50,13 @@ export const Header2 = () => {
             <Button primaryGreen='#0f9d58' ml='5px'/>
           </ul>
 
-          <div ref={menuRef} className={active ? 'flex flex-col items-start p-3 fixed inset-0 left-[35%] uppercase h-full bg-black/40 backdrop-blur-sm gap-1 ease-in-out duration-700 border-2 sm:hidden' : 'hidden'}>
-            <ul className=''>
-              <RxCross1 onClick={handleNavbar} className='close mt-7  right-0 text-white font-medium text-[14px] leading-5 not-italic'/>
-              <li className='text-white font-medium text-[14px] leading-5 not-italic'><a href=''>Home</a></li>
-              <li className='text-white font-medium text-[14px] leading-5 not-italic'><a href=''>Handouts</a></li>
-              <li className='text-white font-medium text-[14px] leading-5 not-italic'><a href=''>Past Questions</a></li>
-              <li className='text-white font-medium text-[14px] leading-5 not-italic'><a href=''>Contact</a></li>
+          <div ref={menuRef} className={active ? 'flex flex-col items-start p-3 fixed inset-0 left-[35%] uppercase h-full bg-black/50 backdrop-blur-sm gap-10 transition delay-700 duration-300 ease-in-out  border-2 sm:hidden' : 'hidden'}>
+            <ul className='gap-10 flex flex-col'>
+              <RxCross1 onClick={handleNavbar} className='close mt-7  right-0 text-white font-medium text-[25px] leading-5 not-italic'/>
+              <li className='text-white font-medium text-[16px] leading-5 not-italic'><a href=''>Home</a></li>
+              <li className='text-white font-medium text-[16px] leading-5 not-italic'><a href=''>Handouts</a></li>
+              <li className='text-white font-medium text-[16px] leading-5 not-italic'><a href=''>Past Questions</a></li>
+              <li className='text-white font-medium text-[16px] leading-5 not-italic'><a href=''>Contact</a></li>
             </ul>
           
             <div  className='flex justify-start'>
