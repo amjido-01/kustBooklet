@@ -1,25 +1,23 @@
 import React from 'react'
+import { DownloadBtn } from './DownloadBtn'
+import { SearchInput } from './SearchInput'
 
 // import {Rectangle} from '../assets/images/hero.png'
 
 export const Hero = () => {
   return (
     <div>
-        <div className='hero text-white h-96 flex items-center justify-center '>
-        <div className="hero-text text-center">
-          <h1 className=' font-popins text-[28px] font-bold leading-10 w-3/4 mx-auto'>free website for kUST students (Kusties)</h1>
-          <p className='font-popins font-medium leading-7 text-[14px] w-3/4 mx-auto'>to download their favorites Handouts and past question papers.</p>
+        <div className='hero text-white h-96 flex items-center justify-center'>
+        <div className="hero-text text-center mt-16">
+          <h1 className=' font-popins text-[25px] md:text-[28px] font-semibold md:font-bold  md:leading-10 w-[60%] md:w-3/4 mx-auto'>free website for kUST students (Kusties)</h1>
+          <p className='font-popins font-semibold mt-3 md:mt-2 leading-5  md:font-semibold md:leading-7 text-[15px] md:text-[18px] w-[60%] md:w-3/4 mx-auto'>to download their favorites Handouts and past question papers.</p>
 
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded  mt-10
-          
-          
-          
-          
-          
-          ">
-            <svg className="fill-current w-4 h-4 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-            <span>Download</span>
-          </button>
+            <DownloadBtn />
+
+          <div className='hidden md:block  mt-10'>
+            <SearchInput />
+          </div>
+
         </div>
     </div>
     </div>
