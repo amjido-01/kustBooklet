@@ -7,7 +7,7 @@ export const Hero = () => {
     <div>
         <div className='hero text-white h-96 flex items-center justify-center '>
         <div className="hero-text text-center">
-          <h1 className=' font-popins text-[28px] font-bold leading-10 '>free website for kUST students (Kusties)</h1>
+          <h1 className=' font-popins text-[28px] font-bold leading-10 w-3/4 mx-auto'>free website for kUST students (Kusties)</h1>
           <p className='font-popins font-medium leading-7 text-[14px] w-3/4 mx-auto'>to download their favorites Handouts and past question papers.</p>
 
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded  mt-10

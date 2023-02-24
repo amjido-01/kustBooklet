@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import { Header2 } from './Header'
+import { Header2 } from './components/Header'
 import { Hero } from './components/Hero'
 // import { Loding } from './components/Loding'
 

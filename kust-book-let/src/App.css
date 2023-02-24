@@ -77,6 +77,38 @@ body {
     .close {
         margin-left: 180px;
     }
+    .try ul li {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .close {
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width:283px) {
+    .close {
+        margin-left: 120px;
+    }
+}
+
+
+
+@media screen and (min-width: 393px) {
+    .close {
+        margin-left: 200px;
+    }
+    .try ul li {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 497px) {
+    .close {
+        margin-left: 250px;
+        border: 1px solid green;
+    }
 }
 
 /* @media screen and (min-width: 331px) {
