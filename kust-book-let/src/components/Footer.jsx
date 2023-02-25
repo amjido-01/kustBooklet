@@ -1,10 +1,56 @@
 import React from 'react'
+import {FaFacebook} from 'react-icons/fa'
+import {AiFillTwitterCircle} from 'react-icons/ai'
+import {IoLogoGithub} from 'react-icons/io'
+import {GrLinkedinOption} from 'react-icons/gr'
 
 const Footer = () => {
   return (
-    <div className='footer bg-[#060606] text-[#FFFFFF] w-full  py-4 text-center fixed left-0 bottom-0'>
-        <span className=''>copyright (C) 2023 Amjido_01 and Mrprofessor </span>
-    </div>
+    
+    <footer style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}} className="text-center text-white">
+      <div className="container px-6 pt-6">
+        <div className="mb-6 flex justify-center">
+          {/* first icon */}
+          <a
+            href="#!"
+            type="button"
+            className="m-1 h-9 w-9 rounded-full  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            data-te-ripple-init
+            data-te-ripple-color="light">
+            <FaFacebook className="mx-auto h-full w-full"/>
+          </a>
+    
+          {/* second icon */}
+          <a
+            href="#!"
+            type="button"
+            className="m-1 h-9 w-9 rounded-full  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            data-te-ripple-init
+            data-te-ripple-color="light">
+            <AiFillTwitterCircle className="mx-auto h-full w-full"/>
+          </a>
+          {/* third icon */}
+          <a
+            href="#!"
+            type="button"
+            className="m-1 h-9 w-9 rounded-full uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            data-te-ripple-init
+            data-te-ripple-color="light">
+            <IoLogoGithub  className="mx-auto h-full w-full"/>
+          </a>
+        </div>
+      </div>
+    
+      <div
+        className="p-4 text-center"
+        style={{backgroundColor: '#060606'}}>
+        © 2023 Copyright: 
+        <a className="text-whitehite" href=""
+          > Amjido_01 and Mrprofessor</a
+        >
+      </div> 
+  </footer>
+  
   )
 }
 

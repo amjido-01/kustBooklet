@@ -3,42 +3,26 @@
     padding: 0;
     overflow-x: hidden;
 }
-.ico::after, ::before {
-    margin-bottom: auto;
-}
 
 body {
     background-color: #1F1F1F;
     width: 100%;
 }
 
-.try {
-    transition: ease-in-out;
-    transition-duration: 3s;
-    transition-delay: 2s;
+::-webkit-scrollbar {
+    width: 7px;
 }
-
-.main-content {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
 }
-
-@media screen and (min-width: 990px) {
-    .main-content {
-        margin-bottom: 30px;
-        margin-top: 30px;
-        border: 2px solid green;
-    }
+   
+::-webkit-scrollbar-thumb {
+    background: #0F9D58; 
 }
-@media screen and (min-width: 1140px) {
-    .main-content {
-        margin-bottom: 20px;
-        margin-top: 20px;
-        border: 2px solid red;
-    }
-    .footer {
-        margin-top: 20px;
-    }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #0F9D58; 
 }
 
 .hero {
@@ -51,6 +35,42 @@ body {
     object-fit: cover;
     position: relative;
 }
+
+.hero-text button {
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.main-content {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 990px) {
+    .main-content {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 1140px) {
+    .main-content {
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+}
+
 
 @media screen and (min-width: 639px) {
     .hero {
@@ -73,24 +93,8 @@ body {
     color: white;
   } */
   
-  .hero-text button {
-    border: none;
-    border-radius: 5px;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
-
-  @media screen and (max-width: 393px) {
+@media screen and (max-width: 393px) {
     .close {
         margin-left: 180px;
     }
@@ -125,20 +129,3 @@ body {
         margin-left: 250px;
     }
 }
-
-/* @media screen and (min-width: 331px) {
-    .close {
-        margin-left: 110px;
-    }
-}
-@media screen and (min-width: 431px) {
-    .close {
-        margin-left: 140px;
-    }
-}
-@media screen and (min-width: 531px) {
-    .close {
-        margin-left: 200px;
-    }
-} */
-

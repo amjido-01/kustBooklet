@@ -39,7 +39,7 @@ export const Header2 = () => {
         <div className=' items-center justify-between'>
 
           <div className=' absolute right-8 top-[18px] items-center text-center mb-4 flex sm:hidden cursor-pointer scale-150 '>
-            <RiMenu3Line onClick={ handleNavbar } style={{ color: 'white', textAlign: 'center'}} className='ico' />
+            <RiMenu3Line onClick={ handleNavbar } style={{ color: 'white', textAlign: 'center'}}/>
           </div>
 
           <ul className='hidden sm:flex gap-8 p-4 w-full uppercase md:text-sm md:font-bold font-popins rounded-lg text-[#f5f5f5]'>
