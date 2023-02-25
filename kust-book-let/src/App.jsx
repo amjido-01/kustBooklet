@@ -3,6 +3,7 @@ import './App.css'
 import { Header2 } from './components/Header'
 import { Hero } from './components/Hero'
 import MainContent from './components/MainContent'
+import Footer from './components/Footer'
 // import { Loding } from './components/Loding'
 
 
@@ -22,6 +23,7 @@ function App() {
       <Header2 />
       < Hero />
       <MainContent />
+      <Footer />
     </div>
   )
 }
