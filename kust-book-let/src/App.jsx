@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import { Header2 } from './components/Header'
 import { Hero } from './components/Hero'
+import MainContent from './components/MainContent'
 // import { Loding } from './components/Loding'
 
 
@@ -20,6 +21,7 @@ function App() {
     {/* <Loding /> */}
       <Header2 />
       < Hero />
+      <MainContent />
     </div>
   )
 }
