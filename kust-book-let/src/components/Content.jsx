@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Content = (props) => {
+export const Content = (props) => {
   return (
     <div className='text-[#1F1F1F] w-[95%] rounded-md p-5 mx-4 my-3' style={{backgroundColor: props.bg}}>
         <h1 className=' text-xl not-italic font-bold font-popins'>Handouts</h1>
@@ -15,5 +15,3 @@ const Content = (props) => {
     </div>
   )
 }
-
-export default Content

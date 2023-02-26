@@ -1,43 +1,18 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import { Header2 } from './components/Header'
-import { Hero } from './components/Hero'
-import MainContent from './components/MainContent'
-import Footer from './components/Footer'
-// import { Loding } from './components/Loding'
+import { Route } from 'react-router-dom'
+import { Routes } from 'react-router-dom'
+import {Root} from './routes/Root'
+import {About} from './routes/About'
 
 
 function App() {
   
-  // const [isLoading, setIsLoading] = useState(true)
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsLoading(false)
-  //   }, 8000)
-  // })
-  const  data = [
-    {
-        title: "product 1",
-        price: 10,
-        description: "First product"
-    },  
-    {
-        "title": "product 2",
-        "price": 20,
-        description: "Second product"
-    }
-  ]
-
   return (
-
-   <div>
-    {/* <Loding /> */}
-      <Header2 />
-      < Hero />
-      <MainContent />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path='/' element={ < Root /> }></Route>
+      <Route path='about' element={ < About /> }></Route>
+    </Routes>
   )
 }
 

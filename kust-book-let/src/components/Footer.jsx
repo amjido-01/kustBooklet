@@ -4,36 +4,34 @@ import {AiFillTwitterCircle} from 'react-icons/ai'
 import {IoLogoGithub} from 'react-icons/io'
 import {GrLinkedinOption} from 'react-icons/gr'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     
     <footer style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}} className="text-center text-white">
-      <div className="container px-6 pt-6">
-        <div className="mb-6 flex justify-center">
-          {/* first icon */}
+      <div className="container px-6 pt-5">
+        <div className="mb-5 flex justify-center">
           <a
             href="#!"
             type="button"
-            className="m-1 h-9 w-9 rounded-full  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            className="m-1 h-9 w-6 rounded-full  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
             data-te-ripple-color="light">
             <FaFacebook className="mx-auto h-full w-full"/>
           </a>
     
-          {/* second icon */}
           <a
             href="#!"
             type="button"
-            className="m-1 h-9 w-9 rounded-full  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            className="m-1 h-9 w-7 rounded-full  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
             data-te-ripple-color="light">
             <AiFillTwitterCircle className="mx-auto h-full w-full"/>
           </a>
-          {/* third icon */}
+
           <a
             href="#!"
             type="button"
-            className="m-1 h-9 w-9 rounded-full uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            className="m-1 h-9 w-7 rounded-full uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
             data-te-ripple-color="light">
             <IoLogoGithub  className="mx-auto h-full w-full"/>
@@ -53,5 +51,3 @@ const Footer = () => {
   
   )
 }
-
-export default Footer
