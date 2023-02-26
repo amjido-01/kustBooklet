@@ -44,7 +44,7 @@ const Footer = () => {
       <div
         className="p-4 text-center"
         style={{backgroundColor: '#060606'}}>
-        © 2023 Copyright: 
+          Copyright © 2023: 
         <a className="text-whitehite" href=""
           > Amjido_01 and Mrprofessor</a
         >

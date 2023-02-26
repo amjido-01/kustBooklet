@@ -16,8 +16,21 @@ function App() {
   //     setIsLoading(false)
   //   }, 8000)
   // })
+  const  data = [
+    {
+        title: "product 1",
+        price: 10,
+        description: "First product"
+    },  
+    {
+        "title": "product 2",
+        "price": 20,
+        description: "Second product"
+    }
+  ]
 
   return (
+
    <div>
     {/* <Loding /> */}
       <Header2 />
