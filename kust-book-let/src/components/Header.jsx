@@ -5,6 +5,9 @@ import {RiMenu3Line} from 'react-icons/ri';
 import { Button } from './Button';
 import { useRef } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { Login } from '../routes/Login';
+
 
 export const Header2 = () => {
   const [active, setActive] = useState(false)
@@ -37,6 +40,7 @@ export const Header2 = () => {
     }
   }
 
+  const next = useNavigate()
   return (
     <div className='bg-[#484848] fixed px-2 sm:px-4 py-2.5 z-20 top-0 left-0 border-b shadow-md border-gray-500 w-full text-white flex '>
       <div className='container flex flex-wrap items-center justify-around mx-auto'>
@@ -59,7 +63,7 @@ export const Header2 = () => {
             <li className='hover:underline hover:decoration-[#0F9D58] hover:decoration-2 underline-offset-4'>
               <NavLink style={navLinkStyle} to='/about'>About</NavLink>
             </li>
-            <Button primaryGreen='#0f9d58' ml='5px'/>
+            <Button next={() => next('Login')} primaryGreen='#0f9d58' ml='5px'/>
           </ul>
 
           {/* Mobile view */}
