@@ -1,9 +1,10 @@
 import React from 'react'
+import { Card  } from '../Card'
 
 export const Prof = () => {
   return (
     <div>
-        Niimatullahi Muhammad Aliyu
+        <Card />
     </div>
   )
 }

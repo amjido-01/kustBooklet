@@ -8,6 +8,7 @@ import {Root} from './routes/Root';
 import {About} from './routes/About';
 import { Login } from './routes/Login';
 import { NotFound } from './routes/NotFound';
+import { index } from './components/pages';
 
 
 

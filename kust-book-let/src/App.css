@@ -58,15 +58,6 @@ body {
 }
 
 
-/* .error-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #0F9D58;
-} */
-
-
 @media screen and (min-width: 639px) {
     .hero {
         margin-top: 7rem;
