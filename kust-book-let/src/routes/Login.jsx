@@ -1,10 +1,10 @@
 import React from 'react'
-import { LoginPage } from '../components/pages/LoginPage'
+import {LoginPG} from '../components/pages/LoginPG'
 
 export const Login = () => {
   return (
     <div>
-        <LoginPage />
+        <LoginPG />
     </div>
   )
 }

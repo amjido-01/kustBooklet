@@ -5,7 +5,7 @@ export const AboutPage = () => {
   return (
     <div>
       <Header2 />
-      <h1 className='text-white mt-20'>AboutPage</h1>
+      <h1 className='mt-20'>AboutPage</h1>
     </div>
   )
 }
