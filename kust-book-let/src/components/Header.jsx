@@ -63,7 +63,7 @@ export const Header2 = () => {
             <li className='hover:underline hover:decoration-[#0F9D58] hover:decoration-2 underline-offset-4'>
               <NavLink style={navLinkStyle} to='/about'>About</NavLink>
             </li>
-            <Button next={() => next('Login')} primaryGreen='#0f9d58' ml='5px'/>
+            <Button next={() => next('Login')} primaryGreen='#0f9d58' ml='5px' typeValue='Login'/>
           </ul>
 
           {/* Mobile view */}

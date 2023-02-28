@@ -1,6 +1,9 @@
 import React from 'react'
 import { Header2 } from '../Header'
 import { NavLink, Outlet } from 'react-router-dom'
+import { Amjido } from './Amjido'
+import { Prof } from './Prof'
+
 
 export const AboutPage = () => {
 
@@ -15,7 +18,14 @@ export const AboutPage = () => {
   return (
     <div>
       <Header2 />
-      <h1 className='mt-20'>AboutPage</h1>
+      <div className='mx-auto mt-24 sm:mt-40 md:mt-48'>
+        {/* <h1 className='mt-20'>AboutPage</h1> */}
+        <div className='mx-auto flex flex-col justify-center items-center gap-6 sm:flex-row sm:flex-wrap'>
+          <Amjido />
+          <Prof />
+          <Amjido />
+        </div>
+      </div>
 
       {/* <nav>
         <ul className='flex '>
